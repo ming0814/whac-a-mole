@@ -1,0 +1,33 @@
+.welcome {
+  text-align: center;
+  padding: 5px;
+  width: 810px;
+}
+
+.time-left {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+.board_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+  width: 820px;
+}
+.block {
+  width: 205px;
+  height: 205px;
+  border: 2px brown solid;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
